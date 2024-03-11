@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmw xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="bmw.xsd">
+	<menu>
+		<menu1>
+			Strona główna
+			M3
+		</menu1>
+		<menu2>
+			E30
+			E36
+			E46
+			E92
+			F80
+			G80
+		</menu2>
+		<menu1>
+			M5
+		</menu1>
+		<menu2>
+			E28
+			E34
+			E39
+			E60
+			F10
+			F90
+		</menu2>
+		<menu1>
+			M6
+		</menu1>
+		<menu2>
+			E24
+			E63
+			F13
+		</menu2>
+		<menu1>
+			Galeria zdjęć
+			Twoja opinia
+		</menu1>
+	</menu>
+	<glowna czesc="1">
+		<opis miejsce="gora">
+			<tekst>
+				Najwspanialsze dzieła BMW M Strona poświęcona najlepszym samochodom M Power w historii
+			</tekst>
+			<image source="img\header_logo_left.png"></image>
+			<image source="img\header_logo_right.svg"></image>
+		</opis>
+		<opis miejsce ="srodek">
+			<tekst>
+				Witaj na stronie poświęconej najlepszym samochodom BMW M Power w historii,znajdziesz tutaj garść informacji na tematposzczególnych modeli oraz galerię zdjęć.Hipertekst i Hipermedia:Projekt I 2023 Temat: Moje hobby Wydział Elektroniki, Telekomunikacji i Informatyki Politechniki Gdańskiej
+			</tekst>
+		</opis>
+		<opis miejsce="dol">
+			<tekst>
+				Autor: Jakub Grudziński
+			</tekst>
+		</opis>
+	</glowna>
+	<M3 czesc="2">
+		<opis miejsce="gora">
+			<tekst>
+				BMW M3 - sportowa wersja samochodów BMW oparta na serii 3. Pierwsze BMW M3 pojawiło się w 1985 roku. Obecnie istnieje już 6 generacji tych pojazdów.
+			</tekst>
+		</opis>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M3#BMW_M3_E30">BMW M3 E30</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\E30.png"></image>
+			</tyl>
+			<produkcja>
+				1986-1992
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M3#BMW_M3_E36">BMW M3 E36</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\E36.png"></image>
+			</tyl>
+			<produkcja>
+				1992-1999
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M3#BMW_M3_E46">BMW M3 E46</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\E46.png"></image>
+			</tyl>
+			<produkcja>
+				1999-2007
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M3#BMW_M3_E90/E92/E93">BMW M3 E92</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\E92.png"></image>
+			</tyl>
+			<produkcja>
+				2007-2013
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M3#BMW_M3_F80">BMW M3 F80</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\F80.png"></image>
+			</tyl>
+			<produkcja>
+				2013-2019
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://www.bmw.pl/pl/all-models/m-series/m3-sedan/2023/modele-bmw-serii-3-limuzyna-m-w-skrocie.html">BMW M3 G80</link>
+			</model>
+			<tyl>
+				<image source="img\M3\Tył\G80.png"></image>
+			</tyl>
+			<produkcja>
+				2021
+			</produkcja>
+		</wiersz>
+	</M3>
+
+	<E30 czesc="3">
+		<wstep>
+			BMW M3 E30 – pierwszy model M3. Oparty na BMW E30, produkowany był w dwóch wersjach nadwozia: coupé oraz kabriolet.
+		</wstep>
+		<image source="img\M3\BMW M3 E30.jpg"></image>
+		<dane>
+			Wyposażony był w czterocylindrowy silnik S14 o pojemności 2,3 bądź 2,5 litra i manualną skrzynię biegów. Wypuszczano też krótkie limitowane serie w celach m.in. homologacyjnych lub jako ukoronowanie zwycięstw w mistrzostwach DTM: M3 Evolution, M3 Evolution II, M3 Sport Evolution, M3 Europameister, M3 Roberto Ravaglia, M3 Johnny Cecotto, M3 Tour de Corse. M3 E30 Jest to model z największa liczbą zwycięstw w historii koncernu BMW oraz najbardziej utytułowane auto w klasie samochodów turystycznych. Jest jednym z najbardziej udanych samochodów sportowych, jakie kiedykolwiek startowały w wyścigach serii DTM.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E30>
+
+	<E36 czesc="4">
+		<wstep>
+			BMW M3 E36 – model oparty na BMW E36. Produkowany w wersji coupé, kabriolet oraz sedan. Wyposażony w sześciocylindrowy silnik S50 o pojemności 3.0 lub 3.2 litra oraz S52 w wersji amerykańskiej
+		</wstep>
+		<image source="img\M3\BMW M3 E36.jpg"></image>
+		<dane>
+			Model BMW M3 E36 był produkowany z przeznaczeniem na rynek europejski, amerykański oraz południowoafrykański. Na rynek amerykański M3 były oferowane z innymi silnikami niż na rynek europejski. BMW M3 US miało niezależnie od silnika (3.0 oraz 3.2) 240 KM, podczas gdy wersje europejskie w zależności od silnika miały 3.0 – 286 KM, 3.2 – 321 KM. Amerykańskie wersje M3 bazowały na silnikach M50/M52. Były o wiele bardziej podobne konstrukcyjnie do M50/M52 niż do prawdziwych silników z M3, a więc S53.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E36>
+
+	<E46 czesc="5">
+		<wstep>
+			BMW M3 E46 – model oparty na BMW E46. Produkowany w wersji coupé i kabriolet. Wyposażony w sześciocylindrowy silnik S54 o pojemności 3246 cm³.
+		</wstep>
+		<image source="img\M3\BMW M3 E46.jpg"></image>
+		<dane>
+			Model BMW M3 E46 był produkowany z przeznaczeniem na rynek europejski oraz amerykański. W początkowych modelach BMW M3 miały usterkę fabryczną polegającą na zastosowaniu wadliwego materiału przy produkcji panewek korbowodowych. Usterka ta często powodowała problemy silnikowe. BMW usuwało bezpłatnie usterkę, a w krytycznych przypadkach nawet wymieniało silnik. Warto zwrócić na powyższą przypadłość szczególną uwagę w egzemplarzach wyprodukowanych przed 2003 rokiem. Serwisy BMW na całym świecie wzywały właścicieli aut i nieodpłatnie wykonywały akcję serwisową polegająca na wymianie wadliwych panewek na właściwe.Samochód występuje w grach z serii Need for Speed: Most Wanted, kNeed for Speed: Payback, Need for Speed: Carbon i Need for Speed: World jako BMW M3 GTR.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E46>
+
+	<E92 czesc="6">
+		<wstep>
+			Model ten był produkowany od roku 2007.
+		</wstep>
+		<image source="img\M3\BMW M3 E92.jpg"></image>
+		<dane>
+			Ostatni egzemplarz M3 coupé opuścił fabrykę w lipcu 2013, natomiast zakończenie produkcji M3 Convertible miało miejsce we wrześniu 2013 roku. Jednocześnie niemiecki koncern podjął decyzję, że nie będzie kolejnej generacji M3 w wersji coupé oraz cabrio. Wersje te zostały zastąpione przez BMW M4 coupé oraz M4 cabrio.W samochodach BMW serii M3 E90/E92/E93 zastosowano nowy 4-litrowy silnik o zapłonie iskrowym V8 typ S65B40 osiągający moc 420 KM przy 8400 obr./min[5], w którym zainstalowano czujnik spalania stukowego w każdym cylindrze.BMW zaprezentowało „M3 GTS” w listopadzie 2009. Samochód napędzany jest 4,4-litrowym silnikiem V8 w oparciu o 4,0-litrowy silnik montowany standardowym M3, który osiąga maksymalnie 450 KM (331 kW). W sumie wyprodukowanych będzie tylko 99 sztuk. Dostawy w Niemczech zaczęły się od maja 2010. Ceny BMW E92 M3 GTS od € 115.000 za sztukę.Specjalne zawieszenie oraz unikatowy design nadwozia i wnętrza w czterech wariantach dostępnych tylko w krótkim okresie. Premiera na rynku odbyła się w lipcu 2009 roku, a sprzedaż zakończyła się w grudniu lub styczniu 2010 roku.Wersje M3 Edition, zbudowane w oparciu o BMW M3 Coupé, zastosowane zostały aluminiowe obręcze, a także obniżono zawieszenie o 10 milimetrów. Są dostępne w kolorach Alpine White, Black, Dakar Yellow oraz Monte Carlo Blue. Okres produkcji został ograniczony do zaledwie sześciu miesięcy, co pozwoliło zachować ekskluzywny charakter modeli. Model ten jest wyposażony tylko w skrzynie dwusprzęgłową DKG.BMW zaprezentowało nową, specjalną odmianę sportowej „M-trójki”. Model M3 Frozen Gray Edition zostanie zaoferowany w ograniczonym nakładzie 30 sztuk, a sprzedaż będzie odbywać się wyłącznie w USA. Z zewnątrz, nowy produkt BMW wyróżnia się niestandardowym lakierem karoserii, wewnątrz znajdziemy natomiast dwubarwną tapicerkę Fox Red and Black przygotowaną specjalnie dla tego modelu. Limitowane M3 otrzymało ponadto zestaw obniżający prześwit o 10 mm, nowe 19-calowe felgi, szersze ogumienie, a także system EDC odpowiadający za elektroniczną kontrolę amortyzacji.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E92>
+
+	<F80 czesc="7">
+		<wstep>
+			M3 F80 to pierwsze BMW M3 niedostępne w wersji coupé i cabrio, ich rolę przejęła seria 4 i model M4 (F82).
+		</wstep>
+		<image source="img\M3\BMW M3 F80.jpg"></image>
+		<dane>
+			W układzie przeniesienia napędu zastosowano sześciostopniową, ręczną skrzynię biegów oraz dwusprzęgłową przekładnię M DCT o siedmiu przełożeniach, Dzięki temu M3 rozpędza się do 100 km/h odpowiednio w 4,3 s oraz 4,1 s. Na życzenie klienta ogranicznik prędkości może zostać zdjęty. Wówczas samochody osiągnąć mogą prędkość maksymalną 270 km/h.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</F80>
+
+	<G80 czesc="8">
+		<wstep>
+			Nowe BMW M3 G80 2021
+		</wstep>
+		<image source="img\M3\BMW M3 G80.jpg"></image>
+		<dane>
+			Modele BMW M3 Limuzyna łączą w sobie atletyczne proporcje i charakterystyczną czterodrzwiową, trójbryłową karoserię z typowo sportowym charakterem M. Kwartet mocnych charakterów z BMW M3 Competition Limuzyna na czele o imponującej mocy 510 KM i momencie obrotowym 650 Nm.Mocarny silnik M TwinPower Turbo, 8-stopniowa sportowa skrzynia M Steptronic z układem Drivelogic, opcjonalny napęd na wszystkie koła M xDrive*, aktywny mechanizm różnicowy M oraz liczne rozwiązania zaczerpnięte ze sportów motorowych gwarantują maksymalną dynamikę jazdy – zarówno na co dzień, jak i na torze wyścigowym. BMW M3 Limuzyna generuje moc 480 KM i moment obrotowy 550 Nm. Połączenie napędu tylnego i optymalnie zestopniowanej 6-biegowej skrzyni manualnej M pozwala na bardzo dynamiczną jazdę i czyni z pojazdu rasowy purystyczny sportowy samochód. Ofertę modeli uzupełnia BMW M340i xDrive, BMW M340d xDrive Limuzyna: oprócz atrakcyjnego wyglądu, te mocne sportowe limuzyny oferują niezwykle wyważone połączenie sportowego charakteru, wydajności i komfortu w codziennym użytkowaniu.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</G80>
+
+	<M5 czesc="9">
+		<opis miejsce="gora">
+			<tekst>
+				BMW M5 - sportowa wersja BMW serii 5 produkowana przez niemiecki koncern BMW od 1984 roku. Od 2018 roku produkowana jest szósta generacja modelu.
+			</tekst>
+		</opis>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Pierwsza_generacja">BMW M5 E28</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\E28.png"></image>
+			</tyl>
+			<produkcja>
+				1985-1988
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Druga_generacja">BMW M5 E34</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\E34.png"></image>
+			</tyl>
+			<produkcja>
+				1988-1996
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Trzecia_generacja">BMW M5 E39</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\E39.png"></image>
+			</tyl>
+			<produkcja>
+				1998-2003
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Czwarta_generacja">BMW M5 E60</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\E60.png"></image>
+			</tyl>
+			<produkcja>
+				2005-2010
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Pi%C4%85ta_generacja">BMW M5 F10</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\F10.png"></image>
+			</tyl>
+			<produkcja>
+				2011-2017
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://pl.wikipedia.org/wiki/BMW_M5#Sz%C3%B3sta_generacja">BMW M5 F90</link>
+			</model>
+			<tyl>
+				<image source="img\M5\Tył\F90.png"></image>
+			</tyl>
+			<produkcja>
+				2017
+			</produkcja>
+		</wiersz>
+	</M5>
+
+	<E28 czesc="10">
+		<wstep>
+			BMW M5 I został zaprezentowany po raz pierwszy w 1984 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 E28.jpg"></image>
+		<dane>
+			Pojazd oparto na modelu serii 5 E28. Po raz pierwszy inżynierowie z M Motorsport postanowili zbudować coś niezwykłego po niezbyt udanym, modelu M1 z lat 70.. Wykorzystując jego silnik o mocy 277 KM, postanowili go zamontować do seryjnej „piątki” i wygenerować z niego jeszcze więcej – aż 286 KM.Samochód produkowano jedynie przez 4 lata, ponieważ zadebiutował on stosunkowo późno po modelu bazowym. Ten zdążył się w międzyczasie zestarzeć, doczekując się następcy, który również otrzymał sportowy wariant M5
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E28>
+
+	<E34 czesc="11">
+		<wstep>
+			BMW M5 II został zaprezentowany po raz pierwszy w 1988 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 E34.jpg"></image>
+		<dane>
+			Zaprezentowany w 1988 roku sportowy model M5, bazujący na modelu BMW serii 5, otrzymał kod fabryczny E34. M5 E34 była drugim po M5 E28 sportowym modelem serii 5. Jako źródło napędu postanowiono zamontować silnik z BMW M1, który wcześniej montowano również w M5 starszej generacji. Model M5 wykonywany był całkowicie ręcznie w zakładach BMW Motorsport.W 1990 roku w ramach dobrowolnej umowy między firmami Audi, BMW i Mercedesem podpisano porozumienie zakładające instalowanie w ich samochodach elektronicznego „kagańca” ograniczającego prędkość maksymalną do 250 km/h. W 1992 roku pojawiła się mocniejsza odmiana tego samego silnika tym razem z powiększoną pojemnością 3,8 l i mocą 340 KM. Nigdy jednak nie produkowana na rynek USA, przez cały okres produkcji była tylko odmiana z silnikiem 3.5.Samochód po roku 1992 oferowany był również z nadwoziem touring (kombi), a od wiosny 1994 roku ze skrzynią manualną Getrag o 6 przełożeniach i tzw. szerokim grillem na przodzie, który dotychczas był zarezerwowany dla modeli E34 z silnikami V8, także z pakietem Nürburing, który zawierał: Servotronic, tylny stabilizator o gr. 19 mm, a w przypadku Touringa 20 mm, koła 9x17 z oponami 255/40R17, oraz EDC (Electronic Damper Control), czyli elektroniczną kontrolę amortyzatorów.Produkowane były także specjalne krótkie serie M5: Cecotto, Winkelhock, Naghi Motors, 20 Jahre, UK Limited Edition oraz M5 Touring „Elekta” edition.Produkcję rodziny E34 zakończono w 1995 roku, jednak wersja touring (kombi) jako jedyna była produkowana do połowy 1996, w tym również M5 w tej właśnie wersji.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E34>
+
+	<E39 czesc="12">
+		<wstep>
+			BMW M5 zostało zaprezentowane po raz pierwszy w 1998 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 E39.jpg"></image>
+		<dane>
+			Model o kodzie fabrycznym E39 zaprezentowany został w 1998 roku na salonie w Genewie. Znów, to sportowa odmiana modelu BMW serii 5, której produkcja rozpoczęła się w październiku tego samego roku. W sumie wyprodukowano 20,482 E39 M5 od 1998 do 2003. BMW M produkowało trzy różne wersje E39 M5, europejską zwaną (LHD) i wersję na rynek angielski i japoński (RHD versions), w produkcji była także wersja na rynek Ameryki Północnej, E39 M5 był sportowym sedanem bazującym na modelu serii „5”. Po raz trzeci inżynierowie z M-Motorsport postanowili zbudować coś niezwykłego na podwoziu popularnej „piątki” po bardzo udanym, modelu E34 M5 z lat 1989–1995. Ten niepozorny samochód bawarskiej firmy charakteryzował się osiągami godnymi aut typowo sportowych – 400-konny, 4.9-litrowy silnik V8 pozwalał na rozpędzenie auta do 100 km/h w czasie 5,3 s. Jak większość aut tego typu posiada blokadę prędkości – do 250 km/h, po jej zdjęciu bez problemu pojazd może rozpędzić się do około 300 km/h. Tak jak wszystkie M5, model bazował na zwykłym modelu BMW serii 5. Został on jednak wyposażony w o wiele bardziej agresywne, wzmocnione nadwozie, sportowe niższe zawieszenie, sportowy zestaw ospojlerowania o mniejszym oporze aerodynamicznym (zderzaki, lusterka, lotka na klapie), większe i szersze koła mające zapewnić lepszą trakcję i prowadzenie auta, oraz komplet oznaczeń z logo „M-Power” (w tym między innymi emblematy, listwy). BMW M5 E39, w przeciwieństwie do poprzednika, jak i następcy, występowało tylko w jednej wersji nadwoziowej, a mianowicie jako 4-drzwiowy sedan.E39 w przeciwieństwie do swoich dwóch poprzedników (E34 M5) i (E28 M5), nie był budowany ręcznie. Powodem tego było zwiększenie produkcji, lecz nie było to możliwe w oryginalnej hali produkcyjnej firmy M-Motorsport. Toteż produkcja E39 M5 odbywała w mieście Dingolfing obok innych seryjnych „piątek”. Na decyzję zaważającą o produkcji nowej generacji BMW M5 wpłynęła konkurencja. BMW zadecydowało w swoim stwierdzeniu o zaprzestaniu produkcji BMW M5, ponieważ uważano, że model 540i zaprezentowany w 1996 roku wraz z połączeniem manualnej skrzyni biegów o 6-przełożeniach i silnikowi V8, o 4 litrowej pojemności i mocy 286 KM wystarczą jako odmiana sportowa całej serii E39. Jednak gdy Jaguar wypuścił swoją wersję XJR o mocy 320 KM (później 363 KM), a odwieczny rywal Mercedes-Benz wyprodukował następcę popularnej 500-setki – Mercedesa W210 E55 AMG, zastępując odmianę E50, która nie sprzedawała się tak jak zakładano, BMW uznało, że byłaby to ogromna strata finansowa. Odpowiedzią BMW była zmodyfikowana wersja silnika E39 M5 z 4,9-litrowym silnikiem o mocy 400 KM.Za bazę do zmodyfikowanego silnika służył blok 4,4-litrowego M62B44, o pierwotnej mocy 286 KM. Mimo identycznej mocy jak poprzednik M60B40, następca posiadał lepszy moment obrotowy, zużywał mniej paliwa i wyeliminowano w nim problem (The Nikasil problem) napotykany gdy tankowano niskiej jakością paliwa lub paliwa zawierające dużą ilość siarki. Było to częstym zjawiskiem w UK, Stanach Zjednoczonych i Brazylii. Osady siarki powodowały uszkodzenia górnej części cylindrów, gdzie paliwo miało kontakt z cylindrami. W trakcie spalania mieszanki z czasem powodowało to degradacje powierzchni metalowych i spadek kompresji w cylindrach. Po wyeliminowaniu kłopotów powiększono pojemność z 4,4 l do 4,9 l. Między innymi po tej zmianie, silnik osiągał (300 kW / 408 KM) w swojej pierwotnej wersji. Taki też model zaprezentowano dziennikarzom do testów. Jednak w koniecznością sprzedawania modelu na innych rynkach (USA) zmodyfikowano układ wydechowy obniżając lekko moc, kosztem lepszej emisji spalin. Wszystkie produkcyjne wersje posiadały równe 400 KM i 500 Nm.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E39>
+
+	<E60 czesc="13">
+		<wstep>
+			BMW M5 IV został zaprezentowany po raz pierwszy w 2005 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 E60.jpg"></image>
+		<dane>
+			Sportowy model o kodzie fabrycznym E60 znów bazował na BMW serii 5. Było to czwarte wcielenie M5. Samochód charakteryzował się ponad 500-konnym silnikiem V10 o pojemności 5 litrów, pozwalał on na rozpędzenie auta do 100 km/h w czasie ok. 4,7 s. Samochód tak jak poprzednicy wyposażony jest w ogranicznik prędkości – do 250 km/h. Tak jak wszystkie M5, model bazował na zwykłym modelu BMW serii 5. Został on jednak wyposażony w bardziej agresywny sportowy zestaw ospojlerowania o mniejszym oporze aerodynamicznym (zderzaki, lusterka, lotka na klapie itp.), większe i szersze koła mające zapewnić lepszą trakcję i prowadzenie auta oraz komplet oznaczeń (w tym między innymi emblematy, listwy, wyposażenie wnętrza itp.). BMW M5 E60, w przeciwieństwie do poprzednika, występował w dwóch wersjach nadwoziowych, jako 4-drzwiowy sedan i 5-drzwiowe kombi (Touring).
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E60>
+
+	<F10 czesc="14">
+		<wstep>
+			BMW M5 V został zaprezentowany po raz pierwszy w lipcu 2011 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 F10.jpg"></image>
+		<dane>
+			Samochód otrzymał kod fabryczny F10. Podobnie jak w przypadku poprzedników, model M5 bazuje na BMW serii 5. Jest to piąte wcielenie M5. Samochód charakteryzuje się podwójnie turbodoładowanym 560-konnym (wersja Competition – 575 KM) silnikiem V8 o pojemności 4,4 l, który pozwala na rozpędzenie auta do 100 km/h w czasie ok. 4,3 s. Samochód wyposażony jest w ogranicznik prędkości – do 250 km/h. Tak jak wszystkie M5, model bazował na zwykłym modelu BMW serii 5, w tym wypadku modelu (F10). Został on jednak wyposażony w bardziej agresywny sportowy zestaw ospojlerowania o mniejszym oporze aerodynamicznym (zderzaki, lusterka, większe i szersze koła, lotka na klapie itp.), większe i szersze koła mające zapewnić lepszą trakcję i prowadzenie auta oraz komplet oznaczeń (w tym między innymi emblematy, listwy itp.). BMW M5 F10, w porównaniu do poprzednika, zużywa znacznie mniej paliwa(ok. 31%). To dużo, zważywszy na większą masę. Emituje on także znacznie mniej szkodliwych spalin(w porównaniu do BMW M5(E60) jest to 21%). Średnie zużycie paliwa nowej wersji M5 to średnio 9,9 l na 100 km, podczas gdy starszy odpowiednik potrzebuje średnio 14,3 l. Wielu specjalistów zarzuca temu modelowi zastosowanie silnika z turbodoładowaniem tym samym odbiegając od tradycji tego modelu, w którym zawsze można było znaleźć silnik bez doładowania.Wiosną 2014 roku BMW świętowało 30. rocznicę wprowadzenia na rynek pierwszego modelu M5. Z tej okazji niemiecki koncern przygotował specjalną limitowaną edycję BMW 30 Jahre M5. Samochód, który powstanie w krótkiej serii 300 egzemplarzy, napędzany jest doładowanym silnikiem o mocy 600 KM i momencie obrotowym 700 Nm. Tym samym w czasie produkcji był najmocniejszym i najszybszym M5 w historii – przyspieszenie do 100 km/h trwa 3,9 s.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</F10>
+
+	<F90 czesc="15">
+		<wstep>
+			BMW M5 F90 zostało zaprezentowane po raz pierwszy w 2017 roku.
+		</wstep>
+		<image source="img\M5\BMW M5 F90.jpg"></image>
+		<dane>
+			Sportowa odmiana o kodzie F90 bazuje na serii 5 G30. Jest to już szósta generacja BMW M5. Silnik który napędza ten samochód to podwójnie turbodoładowane V8 o mocy 600 KM (w zwykłej wersji; w wersji Competition jest to 620km KM, a w wersji CS 636KM)
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</F90>
+
+	<M6 czesc="16">
+		<opis miejsce="gora">
+			<tekst>
+				BMW M6 to wyczynowa wersja serii 6 sprzedawana pod submarką BMW M od 1983 do 2018 roku (z przerwą od 1990 do 2004 roku). Wprowadzony w wersji nadwozia coupe, M6 był również produkowany w wersjach nadwozia kabrioletu i fastbacka ("Gran Coupe") dla późniejszych generacji. Model M6 został zbudowany dla każdej z pierwszych trzech generacji serii 6. Produkcja M6 zakończyła się w 2018 roku, a w 8 roku została zastąpiona przez BMW M91 (F92/F93/F2019).
+			</tekst>
+		</opis>
+		<wiersz>
+			<model>
+				<link source="https://en.wikipedia.org/wiki/BMW_M6#E24_M635CSi/M6_(1983%E2%80%931989)">BMW M6 E24</link>
+			</model>
+			<tyl>
+				<image source="img\M6\Tył\E24.png"></image>
+			</tyl>
+			<produkcja>
+				1983-1989
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://en.wikipedia.org/wiki/BMW_M6#E63/64_M6_(2005%E2%80%932011)">BMW M6 E63</link>
+			</model>
+			<tyl>
+				<image source="img\M6\Tył\E63.png"></image>
+			</tyl>
+			<produkcja>
+				2005-2011
+			</produkcja>
+		</wiersz>
+		<wiersz>
+			<model>
+				<link source="https://en.wikipedia.org/wiki/BMW_M6#F06/F12/F13_M6_(2012%E2%80%932019)">BMW M6 F13</link>
+			</model>
+			<tyl>
+				<image source="img\M6\Tył\F13.png"></image>
+			</tyl>
+			<produkcja>
+				2012-2019
+			</produkcja>
+		</wiersz>
+	</M6>
+
+	<E24 czesc="17">
+		<wstep>
+			BMW E24, powszechnie znany jako "szóstka" lub "rekin", została zaprezentowana w marcu 1976 roku na międzynarodowym salonie w Genewie. Zastąpiła ona zasłużoną w sporcie BMW 3.0 CSL oraz spokrewnione z nią coupe serii E9. Projektantem nadwozia ze słynną dziś przednią partią kojarzącą się z "pyskiem rekina" był urodzony w Bordeaux stylista Paul Bracq.
+		</wstep>
+		<image source="img\M6\BMW M6 E24.jpg"></image>
+		<dane>
+			Do napędu przeznaczono wyłącznie sześciocylindrowe silniki konstrukcji Karl Heinza Rademachera. Liczne mechanizmy nowe coupe dzieliło z serią 5. Nadwozie, mimo zewnętrznego podobieństwa, było większe i sztywniejsze niż w serii E9. Przeprowadzono cały szereg testów zderzeniowych. Flagowe coupe z Monachium trafiło na rynek jako BMW 630 CS (zasilany gaźnikiem) oraz 633 CS i z silnikiem wyposażonym we wtrysk paliwa.Obydwa modele były znakomicie wyposażone m.in. w seryjne wspomaganie układu kierowniczego, obrotomierz, elektrycznie podnoszone szyby, aluminiowe obręcze oraz w system "check panel", sygnalizujący działanie oświetlenia, poziom płynów eksploatacyjnych i wskaźnik zużycia klocków hamulcowych. Między marcem 1976 a sierpniem 1977 nadwozia pochodziły z firmy Wilhelm Karmann GmbH w Osnabrück. Ich jakość była jednak niezadowalająca i BMW przeniosło produkcję nadwozi do własnego zakładu w Dingolfing. Latem 1978 roku na szczycie gamy "szóstek" znalazł się model 635 CSi.Rok później wycofano z oferty BMW 630 CS i zastąpiono ją modelem 628 CS i. W tym samym czasie na zamówienie najzamożniejszych klientów montowano niewielkie ilości coupe M1. Jednostka napędowa o pojemności 3.5 i mocy 277 KM posiadała cztery zawory na każdy z sześciu cylindrów oraz dwa wałki rozrządu w głowicy. W pierwszej połowie lat 80 BMW 635 CSi odnosiło liczne sukcesy na torach wyścigowych całego świata. Za jej kierownicą zasiadali utytułowani kierowcy m.in. Hans Heyer, Helmut Kelleners, Dieter Quester, Herbert Hartge, Hans - Joachim Stuck, Manfred Winkelhock, Thierry Sabine i Claude Ballot-Lena.Analiza sprzedaży jednoznacznie wskazywała, że największym powodzeniem cieszy się model 635 CSi. Dość liczna grupa klientów zamawiała także profesjonalny tuning silnika, zawieszenia oraz innych podzespołów w firmach Alpina czy AC Schnitzer. Zachętą dla najbardziej wymagających klientów BMW miał być zaprezentowany we wrześniu 1983 roku model M635 CS opracowany wspólnie z BMW Motorsport GmbH - działem sportowym BMW. Do napędu wykorzystano istniejącą już jednostkę z BMW M1 zasilaną nowoczesnym systemem wtryskowym Bosch Motronic zintegrowanym z układem zapłonowym. Udało się osiągnąć moc 286 KM, co pomimo wysokiej masy pojazdu, zapewniało znakomite osiągi. BMW M635 CS i było wyposażone wyłącznie w pięciobiegową skrzynię Getrag. Nadwozie wyróżniało się dużymi spoilerami z przodu i z tyłu pojazdu oraz szerszym ogumieniem montowanym na obręczach firmy BBS. Tapicerkę oraz kierownicę "emki" pokryto skórą. Sprzedaż najszybszej z "szóstek" rozpoczęto na początku 1984 roku. W USA M635 CSi nosiło nazwę M6.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E24>
+
+	<E63 czesc="18">
+		<wstep>
+			W 2003 r. rozpoczęto produkcję BMW E63, czyli nowej serii 6 coupe.
+		</wstep>
+		<image source="img\M6\BMW M6 E63.jpg"></image>
+		<dane>
+			Silniki w układzie V10 mają to do siebie, że są w motoryzacji stosowane relatywnie rzadko. Już samo to sprawia, że motor S85 stosowany przez BMW wyłącznie w modelach M5 i M6 jest wyjątkowy, ale to i tak nic przy wrażeniach, jakie silnik zapewnia.BMW M6 to samochód, który w zasadzie najlepiej czuje się na autostradach – ale nie zmienia to faktu, że przyspieszanie jest imponujące z praktycznie każdej prędkości. Być może zwróciliście uwagę na nietypowo wyglądający uchwyt na napoje po prawej stronie drążka zmiany biegów? Gdybyście kiedyś chcieli sobie kupić taki samochód wyposażony w podobny uchwyt (był opcjonalny), to sugerowałbym nie używać go, jeśli jest choć cień szansy na wykorzystanie potencjału silnika i jeśli wieziecie ze sobą pasażera. Jeśli nie patrzyliście nigdy na półlitrową butelkę coli jak na narzędzie potencjalnie śmiercionośne, to po takiej przejażdżce zaczniecie.Wracając do sedna: silnik S85 jest zdecydowanie najmocniejszym punktem samochodu. To jednostka zdecydowanie wysokoobrotowa – moc maksymalna osiągana jest dopiero przy 7750 obr./min., a maksymalny moment obrotowy (520 Nm) – przy 6100 obr./min. Oczywiście skutkuje to nieco ograniczonymi zdolnościami auta do przyspieszania z niskich obrotów, ale w końcu nie po to kupuje się M6, by jeździć nim jak turbodieslem.W praktyce osiągi są takie, że nawet dziś – 15 lat później – auto nie ma się czego wstydzić na tle nowszych modeli sportowych. Według danych technicznych sprint do 100 km/h zajmuje 4,6 s, ale w praktyce wiele egzemplarzy jest w stanie osiągnąć taką prędkość o 0,4 s szybciej. Auta ze zdjętym ogranicznikiem prędkości (seryjnie 250 km/h lub za dopłatą i w wersji Competition 305 km/h) są w stanie zamknąć szafę, wyskalowaną do 330 km/h. Do tego wszystkiego dochodzi kwestia dźwięku, który nawet przy seryjnym układzie wydechowym wywołuje szeroki uśmiech na twarzy.BMW M6 nie należy do aut lekkich, pomimo zastosowania w konstrukcji nadwozia aluminium (maska, drzwi) oraz kompozytów wzmacnianych włóknem węglowym (błotniki, klapa bagażnika). Dach z włókna węglowego odrobinę pomaga w obniżeniu środka ciężkości, ale nadal mamy do czynienia z masą własną na poziomie 1710 kg (choć w porównaniu z ważącym 1930 kg kabrioletem to i tak nieźle). Wbrew pozorom nie oznacza to jednak, że auto jest podsterowne – masa jest ciągle odczuwalna, ale przy odpowiednim operowaniu kierownicą, pedałami i skrzynią biegów, bawarska maszyna jest zadziwiająco kompetentną konstrukcją, jeżdżącą jak po sznurku. Odczucia płynące z jazdy są zaskakująco zbliżone do mniejszych, słabszych i tańszych aut, auto jest zaskakująco łatwo wyczuć – choć ta ostatnia uwaga nie dotyczy układu hamulcowego, który co prawda jest skuteczny i zgodnie ze słowami właściciela auta nie słabnie nawet podczas długotrwałego kręcenia czasów na torze wyścigowym, ale ma też dość długi i dający niewielką informację zwrotną skok pedału hamulca.Warto też poświęcić kilka słów układowi kierowniczemu i zawieszeniu. Ich ustawienia zmienia się grupowo: albo mamy więc relatywnie miękko resorujący układ jezdny i (w mojej opinii) zbyt silnie wspomaganą kierownicę, albo opcję pośrednią, albo coś z drugiego końca skali. W najostrzejszym trybie auto nadal nie wybija plomb z zębów, ale komfort jest już bardzo wyraźnie ograniczony. Nadal nie można jednak mówić o jakichkolwiek niepożądanych odgłosach we wnętrzu, M6 cały czas robi też wrażenie auta zwartego, ale nie niepotrzebnie „napiętego”. Siła wspomagania kierownicy w ostatnim trybie wyraźnie maleje, do poziomu idealnego do szybkiej jazdy.Problem pojawia się w przypadku ewentualnych usterek (które pojawiają się prędzej czy później w każdym M6) lub w przypadku działań, nazwijmy to, zapobiegawczych. Do tej drugiej kategorii można zaliczyć np. wymianę panewek, które z powodu wadliwej konstrukcji silnika dość szybko się zużywają – co 80 tys. km należy je profilaktycznie wymieniać. Byle nie w autoryzowanych stacjach obsługi BMW, które uważają, że panewki wymianie nie podlegają – a zaniedbanie w tej kwestii może doprowadzić do demolki jednostki napędowej. Zamienników panewek na rynku nie ma, poza elementami tuningowymi – ale stosowanie tych drugich nic nie zmienia w kwestii trwałości, więc w praktyce stosuje się elementy oryginalne, co kosztuje ok. 6000 zł (części plus wymiana).Relatywnie często zdarzają się w M6 problemy natury elektronicznej, choć akurat w testowanym egzemplarzu nic tego typu się nie wydarzyło. W zamian uszkodził się m.in. dyferencjał, co z kolei jest awarią należącą do rzadkości – i to do tego stopnia, że serwis który zajmuje się autem o takim przypadku jeszcze nie słyszał.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</E63>
+
+	<F13 czesc="19">
+		<wstep>
+			Trzecia, najnowsza i obecnie produkowana generacja modelu. Na rynku debiutowała w 2011 roku.
+		</wstep>
+		<image source="img\M6\BMW M6 F13.jpg"></image>
+		<dane>
+			Sercem nowego M6 jest potężne V8, oznaczone symbolem S63Tü. To 4,4-litrowe V8 z podwójnym doładowaniem równoległym, znane z najnowszego sportowego sedana niemieckiej marki - M5. Motor ten ma maksymalną moc 560 KM, rozwijaną w zakresie 5750-7000 rpm. Maksymalny moment obrotowy wynosi 680 Nm i jest osiągany między 1500 a 5750 rpm.Największa prędkość obrotowa rozwijana przez ten silnik to 7200 rpm. Moment obrotowy jest przekazywany na tylną oś przez 7-biegową przekładnię z podwójnym sprzęgłem. By zoptymalizować rozdział mocy między koła, np. podczas jazdy po łuku bądź zmiany pasa ruchu, inżynierowie oddziału M zastosowali w swoim najnowszym dziele aktywny dyferencjał. Bardzo możliwe, że podobnie jak w nowym modelu M5 w Stanach Zjednoczonych oferowana będzie skrzynia ręczna wyposażona w 6 przełożeń.W porównaniu z poprzednią wersją wyposażoną w monstrualną 5-litrową jednostkę V10 mocy jest tu 10 proc. więcej, momentu obrotowego przybyło aż 30 proc. To nie przeszkodziło w osiągnięciu około 30 proc. mniejszego spalania, deklarowanego przez producenta.Nadwozie samej serii 6 F12/F13 jest mniej kontrowersyjne niż w E63. Dzięki temu możliwe, że nowe M6 znajdzie większą rzeszę fanów niż poprzednik. Karoseria auta została uzbrojona w agresywne atrapy zderzaków i cztery końcówki układu wydechowego. Samochód urósł wszerz o 30 mm. Ciekawym akcentem jest oznaczenie M6 umieszczone w jednej z nerek. Styliści BMW nawiązali w ten sposób do klasycznego M6 z pokolenia E24.Patrząc na nadwozie M6 w wersji coupé, trudno nie zauważyć dachu z włókna węglowego. Takie rozwiązanie miało pomóc zredukować masę pojazdu. W tym celu zastosowano lekkie materiały przy budowie niemal całego pojazdu. Maska i drzwi wykonane są z aluminium, a panele nadwozia z wysokiej jakości tworzywa sztucznego.Oddział M poprawił również zawieszenie i układ kierowniczy. Nowe M6 ma wspomaganie Servotronic, którego czułość regulowana jest w funkcji prędkości samochodu. Dzięki trzem ustawieniom kierowca może także sam zdefiniować, jaką charakterystykę ma mieć układ kierowniczy.Wnętrze nowego M6 zostało wyposażone w sportową kierownicę, zmodyfikowany drążek zmiany biegów, sportowe fotele i nieco inne wskaźniki. Cały kokpit pokryty jest skórą, włóknem węglowym i aluminium.
+		</dane>
+		<przesuniecie>
+			Powrót do góry
+		</przesuniecie>
+	</F13>
+
+	<galeria czesc="20">
+		<image source="img\M3\BMW M3 E30.jpg"></image>
+		<image source="img\M3\BMW M3 E36.jpg"></image>
+		<image source="img\M3\BMW M3 E46.jpg"></image>
+		<image source="img\M3\BMW M3 E92.jpg"></image>
+		<image source="img\M3\BMW M3 F80.jpg"></image>
+		<image source="img\M3\BMW M3 G80.jpg"></image>
+		<image source="img\M5\BMW M5 E28.jpg"></image>
+		<image source="img\M5\BMW M5 E34.jpg"></image>
+		<image source="img\M5\BMW M5 E39.jpg"></image>
+		<image source="img\M5\BMW M5 E60.jpg"></image>
+		<image source="img\M5\BMW M5 F10.jpg"></image>
+		<image source="img\M5\BMW M5 F90.jpg"></image>
+		<image source="img\M6\BMW M6 E24.jpg"></image>
+		<image source="img\M6\BMW M6 E63.jpg"></image>
+		<image source="img\M6\BMW M6 F13.jpg"></image>
+	</galeria>
+
+	<opinia czesc="21">
+		<wstep>
+			Jeśli chciałbyś się skontaktować ze mną w sprawie tej strony użyj formularza poniżej. Możesz nim zgłosić wszelakie błędy występujące na stronie, bądź po prostu zostawić swoją opinię. Odzew użytkownika pozwala mi na ciągłe ulepszanie strony.
+		</wstep>
+		<dane>
+			<linie>M3 M5 M6</linie>
+			<ocena>5 4 3 2 1</ocena>
+			<powod>Błąd Opinia </powod>
+		</dane>
+		<personal>
+			Twoje imię:
+			Twoje nazwisko:
+			Twój e-mail:
+		</personal>
+	</opinia>
+</bmw>

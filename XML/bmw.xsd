@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="bmw" type="bmwType"/>
+	<xs:element name="link" type="mulType"/>
+	<xs:element name="image" type="mulType"/>
+	<xs:attribute name="czesc" type="czescType"/>
+
+	<xs:group name="menuGroup">
+		<xs:sequence>
+			<xs:element name="menu1" type="krotszytekstType" minOccurs="0" maxOccurs="8"/>
+			<xs:element name="menu2" type="krotszytekstType" minOccurs="0" maxOccurs="6"/>
+		</xs:sequence>
+	</xs:group>
+
+	<xs:complexType name="bmwType">
+		<xs:all>
+			<xs:element name="menu" type="menuType"/>
+			<xs:element name="glowna" type="glownaType"/>
+			<xs:element name="M3" type="M3Type"/>
+			<xs:element name="E30" type="E30Type"/>
+			<xs:element name="E36" type="E36Type"/>
+			<xs:element name="E46" type="E46Type"/>
+			<xs:element name="E92" type="E92Type"/>
+			<xs:element name="F80" type="F80Type"/>
+			<xs:element name="G80" type="G80Type"/>
+			<xs:element name="M5" type="M5Type"/>
+			<xs:element name="E28" type="E28Type"/>
+			<xs:element name="E34" type="E34Type"/>
+			<xs:element name="E39" type="E39Type"/>
+			<xs:element name="E60" type="E60Type"/>
+			<xs:element name="F10" type="F10Type"/>
+			<xs:element name="F90" type="F90Type"/>
+			<xs:element name="M6" type="M6Type"/>
+			<xs:element name="E24" type="E24Type"/>
+			<xs:element name="E63" type="E63Type"/>
+			<xs:element name="F13" type="F13Type"/>
+			<xs:element name="galeria" type="galeriaType"/>
+			<xs:element name="opinia" type="opiniaType"/>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="menuType">
+		<xs:sequence>
+			<xs:group ref="menuGroup"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="glownaType">
+		<xs:sequence>
+			<xs:element name="opis" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="tekst" type="dluzszytekstType"/>
+						<xs:element name="przesuwanie" type="krotszytekstType"/>
+					</xs:sequence>
+					<xs:attribute name="miejsce" type="miejsceType" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="M3Type">
+			<xs:sequence>
+				<xs:element name="opis">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tekst"/>
+						</xs:sequence>
+						<xs:attribute name="miejsce"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="wiersz" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="model">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="link">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="tyl">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="image">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="produkcja"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="M5Type">
+			<xs:sequence>
+				<xs:element name="opis">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tekst"/>
+						</xs:sequence>
+						<xs:attribute name="miejsce"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="wiersz" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="model">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="link">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="tyl">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="image">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="produkcja"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="M6Type">
+			<xs:sequence>
+				<xs:element name="opis">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tekst"/>
+						</xs:sequence>
+						<xs:attribute name="miejsce"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="wiersz" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="model">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="link">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="tyl">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="image">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="source" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="produkcja"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E30Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="E36Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="E46Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="E92Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType >
+
+	<xs:complexType name="F80Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+			
+
+	<xs:complexType name="G80Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E28Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E34Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E39Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E60Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="F10Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="F90Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E24Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="E63Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="F13Type">
+			<xs:sequence>
+				<xs:element name="wstep"/>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="source"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dane"/>
+				<xs:element name="przesuniecie"/>
+			</xs:sequence>
+			<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="galeriaType">
+		<xs:sequence>
+			<xs:element name="image" maxOccurs="unbounded" minOccurs="0">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="opiniaType">
+		<xs:sequence>
+			<xs:element name="wstep"/>
+			<xs:element name="dane">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="linie" type="fnType"/>
+						<xs:element name="ocena" type="fnType"/>
+						<xs:element name="powod" type="ftType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute ref="czesc" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="mulType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="source" type="xs:anyURI" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:simpleType name="krotszytekstType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="29"/>
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dluzszytekstType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="2000"/>
+			<xs:minLength value="30"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="miejsceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="gora"/>
+			<xs:enumeration value="srodek"/>
+			<xs:enumeration value="dol"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="czescType">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="21"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ftType">
+		<xs:list itemType="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="fnType">
+	<xs:restriction base="listafn">
+		<xs:maxLength value="5"/>
+    </xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="listafn">
+		<xs:list itemType="xs:integer"/>
+	</xs:simpleType>
+</xs:schema>
+
